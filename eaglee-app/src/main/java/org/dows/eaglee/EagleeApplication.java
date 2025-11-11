@@ -1,4 +1,4 @@
-package ;
+package org.dows.eaglee;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import org.springframework.boot.SpringApplication;
