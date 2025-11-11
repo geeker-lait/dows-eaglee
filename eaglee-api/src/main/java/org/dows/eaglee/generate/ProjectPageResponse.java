@@ -16,18 +16,18 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class ProjectPageResponse{
     @Schema(title = "任务项目ID")
-    private Bigint taskProjectId;
+    private Long taskProjectId;
     @Schema(title = "项目名(业务系统中定义的名称)")
-    private Varchar projectName;
+    private String projectName;
     @Schema(title = "DS中流程编码")
-    private Varchar processCode;
+    private String processCode;
     @Schema(title = "项目标识")
-    private Varchar projectIdenfifier;
+    private String projectIdenfifier;
     @Schema(title = "状态[0:为完成，1:已完成]")
     private Integer state;
     @Schema(title = "开始时间，以节点上实际开始和结束时间为准，需要监听结束时间，反向更新")
-    private Datetime startTime;
+    private LocalDateTime startTime;
     @Schema(title = "结束时间，以节点上实际开始和结束时间为准，需要监听结束时间，反向更新")
-    private Datetime endTime;
+    private LocalDateTime endTime;
 
 }

@@ -16,13 +16,13 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class TestRequest{
     @Schema(title = "节点IP地址")
-    private Varchar ip;
+    private String ip;
     @Schema(title = "cpu用量")
     private Integer cpuUsage;
     @Schema(title = "mem用量")
     private Integer memUsage;
     @Schema(title = "磁盘用量")
-    private DiskUsage diskUsage;
+    private Object diskUsage;
     @Schema(title = "网络用量")
     private Integer netUsage;
 

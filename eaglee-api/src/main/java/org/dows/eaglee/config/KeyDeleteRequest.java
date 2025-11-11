@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class KeyDeleteRequest{
     @Schema(title = "任务配置ID")
-    private Bigint taskConfigId;
+    private Long taskConfigId;
 
 }

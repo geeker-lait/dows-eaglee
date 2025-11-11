@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class ProjectSaveResponse{
     @Schema(title = "任务项目ID")
-    private Bigint taskProjectId;
+    private Long taskProjectId;
 
 }

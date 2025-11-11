@@ -16,24 +16,24 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class TaskPageRequest{
     @Schema(title = "任务名(ds中的任务编码)")
-    private Varchar taskName;
+    private String taskName;
     @Schema(title = "任务标识(表明同一类任务的标识)")
-    private Varchar taskIdentifier;
+    private String taskIdentifier;
     @Schema(title = "应用ID")
-    private Varchar applicationId;
+    private String applicationId;
     @Schema(title = "流程实例名称")
-    private Varchar processName;
+    private String processName;
     @Schema(title = "原因")
-    private Varchar reason;
+    private String reason;
     @Schema(title = "时长")
-    private Bigint duration;
+    private Long duration;
     @Schema(title = "重试次数")
     private Integer retried;
     @Schema(title = "状态")
     private Integer state;
     @Schema(title = "开始时间")
-    private Datetime startTime;
+    private LocalDateTime startTime;
     @Schema(title = "结束时间")
-    private Datetime endTime;
+    private LocalDateTime endTime;
 
 }

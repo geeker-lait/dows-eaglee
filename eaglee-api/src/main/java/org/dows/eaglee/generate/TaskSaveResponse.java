@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class TaskSaveResponse{
     @Schema(title = "任务实例ID")
-    private Bigint taskInstanceId;
+    private Long taskInstanceId;
 
 }

@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class RuntimeSaveResponse{
     @Schema(title = "运行时ID")
-    private Bigint taskRuntimeId;
+    private Long taskRuntimeId;
 
 }

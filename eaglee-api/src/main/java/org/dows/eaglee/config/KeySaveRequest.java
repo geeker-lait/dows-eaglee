@@ -16,12 +16,12 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class KeySaveRequest{
     @Schema(title = "键名[采集间隔(不能超过60秒且能被60整除），度量单位[分钟,小时,天]，统计IP结合......]")
-    private Varchar key;
+    private String key;
     @Schema(title = "描述")
-    private Varchar deescription;
+    private String deescription;
     @Schema(title = "数据类型")
-    private Varchar dataType;
+    private String dataType;
     @Schema(title = "页面标签[input,select,checkbox......]")
-    private Varchar tag;
+    private String tag;
 
 }

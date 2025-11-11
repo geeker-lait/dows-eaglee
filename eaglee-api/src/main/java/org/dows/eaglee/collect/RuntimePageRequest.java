@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class RuntimePageRequest{
     @Schema(title = "节点IP地址")
-    private Varchar ip;
+    private String ip;
 
 }

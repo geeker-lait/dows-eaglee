@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class RuleSaveResponse{
     @Schema(title = "任务规则ID")
-    private Bigint taskRuleId;
+    private Long taskRuleId;
 
 }

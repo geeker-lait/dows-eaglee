@@ -16,9 +16,9 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class ClusterEntityResponse{
     @Schema(title = "度量ID")
-    private Bigint taskMetricId;
+    private Long taskMetricId;
     @Schema(title = "节点IP地址")
-    private Varchar ip;
+    private String ip;
     @Schema(title = "时间单位(分钟，小时，天)")
     private Integer timeUnit;
     @Schema(title = "cpu使用总量")

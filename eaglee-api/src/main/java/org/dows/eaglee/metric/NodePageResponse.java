@@ -16,9 +16,9 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class NodePageResponse{
     @Schema(title = "运行时ID")
-    private Bigint taskRuntimeId;
+    private Long taskRuntimeId;
     @Schema(title = "节点IP地址")
-    private Varchar ip;
+    private String ip;
     @Schema(title = "cpu用量")
     private Integer cpuUsage;
     @Schema(title = "mem用量")

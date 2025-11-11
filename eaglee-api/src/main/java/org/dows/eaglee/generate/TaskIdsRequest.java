@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class TaskIdsRequest{
     @Schema(title = "任务实例ID，多个ID用逗号分割")
-    private Varchar taskInstanceIds;
+    private String taskInstanceIds;
 
 }

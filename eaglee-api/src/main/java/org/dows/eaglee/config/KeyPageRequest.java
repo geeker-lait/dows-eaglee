@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class KeyPageRequest{
     @Schema(title = "键名[采集间隔(不能超过60秒且能被60整除），度量单位[分钟,小时,天]，统计IP结合......]")
-    private Varchar key;
+    private String key;
 
 }
