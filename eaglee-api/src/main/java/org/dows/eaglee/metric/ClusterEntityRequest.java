@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "ClusterEntityRequest")
+@Schema(name = "ClusterEntityRequest 对象",title = "ClusterEntityRequest")
 @NoArgsConstructor
 public class ClusterEntityRequest{
+
 }

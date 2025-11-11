@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "KeyPageResponse")
+@Schema(name = "KeyPageResponse 对象",title = "KeyPageResponse")
 @NoArgsConstructor
 public class KeyPageResponse{
+
 }

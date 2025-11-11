@@ -12,7 +12,34 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "TaskSaveRequest")
+@Schema(name = "TaskSaveRequest 对象",title = "TaskSaveRequest")
 @NoArgsConstructor
 public class TaskSaveRequest{
+    @Schema(title = "任务项目ID")
+    private Bigint taskProjectId;
+    @Schema(title = "任务名(ds中的任务编码)")
+    private Varchar taskName;
+    @Schema(title = "任务标识(表明同一类任务的标识)")
+    private Varchar taskIdentifier;
+    @Schema(title = "应用ID")
+    private Varchar applicationId;
+    @Schema(title = "流程实例名称")
+    private Varchar processName;
+    @Schema(title = "原因")
+    private Varchar reason;
+    @Schema(title = "平均耗时")
+    private Bigint avgTime;
+    @Schema(title = "当前耗时，当前耗时=用当前时间-任务开始时间")
+    private Bigint elapsedTime;
+    @Schema(title = "时长")
+    private Bigint duration;
+    @Schema(title = "重试次数")
+    private Integer retried;
+    @Schema(title = "状态")
+    private Integer state;
+    @Schema(title = "开始时间")
+    private Datetime startTime;
+    @Schema(title = "结束时间")
+    private Datetime endTime;
+
 }

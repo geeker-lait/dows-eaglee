@@ -12,7 +12,10 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "KeySaveResponse")
+@Schema(name = "KeySaveResponse 对象",title = "KeySaveResponse")
 @NoArgsConstructor
 public class KeySaveResponse{
+    @Schema(title = "任务配置ID")
+    private Bigint taskConfigId;
+
 }

@@ -12,7 +12,10 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "RuntimePageRequest")
+@Schema(name = "RuntimePageRequest 对象",title = "RuntimePageRequest")
 @NoArgsConstructor
 public class RuntimePageRequest{
+    @Schema(title = "节点IP地址")
+    private Varchar ip;
+
 }

@@ -12,7 +12,20 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "NodePageResponse")
+@Schema(name = "NodePageResponse 对象",title = "NodePageResponse")
 @NoArgsConstructor
 public class NodePageResponse{
+    @Schema(title = "运行时ID")
+    private Bigint taskRuntimeId;
+    @Schema(title = "节点IP地址")
+    private Varchar ip;
+    @Schema(title = "cpu用量")
+    private Integer cpuUsage;
+    @Schema(title = "mem用量")
+    private Integer memUsage;
+    @Schema(title = "磁盘用量")
+    private Integer diskUsage;
+    @Schema(title = "网络用量")
+    private Integer netUsage;
+
 }

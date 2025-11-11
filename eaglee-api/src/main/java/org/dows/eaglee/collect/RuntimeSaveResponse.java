@@ -12,7 +12,10 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "RuntimeSaveResponse")
+@Schema(name = "RuntimeSaveResponse 对象",title = "RuntimeSaveResponse")
 @NoArgsConstructor
 public class RuntimeSaveResponse{
+    @Schema(title = "运行时ID")
+    private Bigint taskRuntimeId;
+
 }

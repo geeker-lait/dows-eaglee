@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "RuntimePageResponse")
+@Schema(name = "RuntimePageResponse 对象",title = "RuntimePageResponse")
 @NoArgsConstructor
 public class RuntimePageResponse{
+
 }

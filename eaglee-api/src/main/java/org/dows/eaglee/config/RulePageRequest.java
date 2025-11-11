@@ -12,7 +12,12 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "RulePageRequest")
+@Schema(name = "RulePageRequest 对象",title = "RulePageRequest")
 @NoArgsConstructor
 public class RulePageRequest{
+    @Schema(title = "规则名")
+    private Varchar ruleName;
+    @Schema(title = "应用类型(0:项目,1:任务)@用户具体选择引用项目还是任务，动态加载出对应的列表")
+    private Integer referenceType;
+
 }

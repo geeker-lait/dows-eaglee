@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "RulePageResponse")
+@Schema(name = "RulePageResponse 对象",title = "RulePageResponse")
 @NoArgsConstructor
 public class RulePageResponse{
+
 }

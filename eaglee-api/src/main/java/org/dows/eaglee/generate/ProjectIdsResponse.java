@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "ProjectIdsResponse")
+@Schema(name = "ProjectIdsResponse 对象",title = "ProjectIdsResponse")
 @NoArgsConstructor
 public class ProjectIdsResponse{
+
 }

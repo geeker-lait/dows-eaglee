@@ -12,7 +12,10 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "RuleDeleteRequest")
+@Schema(name = "RuleDeleteRequest 对象",title = "RuleDeleteRequest")
 @NoArgsConstructor
 public class RuleDeleteRequest{
+    @Schema(title = "任务规则ID")
+    private Bigint taskRuleId;
+
 }

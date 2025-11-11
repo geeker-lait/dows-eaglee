@@ -12,7 +12,8 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "KeyRemoveResponse")
+@Schema(name = "KeyRemoveResponse 对象",title = "KeyRemoveResponse")
 @NoArgsConstructor
 public class KeyRemoveResponse{
+
 }

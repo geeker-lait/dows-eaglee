@@ -12,7 +12,10 @@ import java.math.BigDecimal;
 
 
 @Data
-@Schema(title = "ProjectSaveResponse")
+@Schema(name = "ProjectSaveResponse 对象",title = "ProjectSaveResponse")
 @NoArgsConstructor
 public class ProjectSaveResponse{
+    @Schema(title = "任务项目ID")
+    private Bigint taskProjectId;
+
 }
